@@ -1,9 +1,20 @@
 <template>
   <div id="app">
-    
-    <router-view/>
+    <router-view></router-view>
   </div>
 </template>
-<style lang="stylus">
 
+<script>
+export default {
+  name: '',
+  components: {},
+  data() {
+    return {
+
+    }
+  }
+}
+</script>
+
+<style scoped>
 </style>
