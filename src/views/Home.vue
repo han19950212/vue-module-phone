@@ -1,25 +1,21 @@
 <template>
-  <div class="page">
-        手机端模板
+  <div class="home">
+    1134
   </div>
 </template>
 
 <script>
-export default {
-  name: '',
-  components: {},
-  data() {
-    return {
 
-    }
+
+export default {
+  name: 'Home',
+  components: {
+
   }
 }
 </script>
-
-<style scoped ls="scss">
-  .page{
-    font-size: 20px;
-    color: red;
-    
-  }
+<style scoped>
+.home{
+  width: 100px;
+}
 </style>

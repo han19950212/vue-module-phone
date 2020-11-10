@@ -1,4 +1,4 @@
-# wei
+# vue-module-phon
 
 ## Project setup
 ```

@@ -11,9 +11,9 @@ import './assets/style/border.css'
 import './assets/js/rem.js'
 
 //引入vant 
-import Vant from 'vant';
-import 'vant/lib/index.css';
-Vue.use(Vant);
+// import Vant from 'vant';
+// import 'vant/lib/index.css';
+// Vue.use(Vant);
 
 Vue.config.productionTip = false
 

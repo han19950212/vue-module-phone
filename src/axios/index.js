@@ -13,12 +13,7 @@ const instance = axios.create({   //5,创建axios的示例，并且赋值默认�
     // baseURL: window.location.protocol + '//' +window.location.host + '/api' ,      //设置默认的请求api
     // baseURL:"http://www.unqutest.obcase.cn/api"       //设置默认的请求api
     baseURL:"http://192.168.31.18:8080"
-    // baseURL:"http://192.168.31.18:8080"
-    // baseURL:"http://192.168.31.84:8080"
-    // baseURL:"http://192.168.31.151:8001"
-    // baseURL:"http://192.168.31.156:8001"
-    // baseURL:"http://192.168.31.1:8001"
-    //  baseURL:"/api" //设置默认的请求api
+
 })
 
 instance.defaults.headers['Content-Type']='application/json'; //设置统一的header
