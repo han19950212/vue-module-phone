@@ -1,4 +1,4 @@
-//适配手机端rem
+//适配手机端rem  ----ios有bug 不建议使用
 var rootResize=function(){
     var baseFontSize = 100;
     var baseWidth = 640;

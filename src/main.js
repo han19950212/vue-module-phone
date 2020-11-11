@@ -7,13 +7,12 @@ import store from './store'
 //基本初始化样式
 import './assets/style/reset.css'
 import './assets/style/border.css'
-//引入rem
-import './assets/js/rem.js'
+
 
 //引入vant 
-// import Vant from 'vant';
-// import 'vant/lib/index.css';
-// Vue.use(Vant);
+import 'vant/lib/index.css';
+import './vant'
+
 
 Vue.config.productionTip = false
 
